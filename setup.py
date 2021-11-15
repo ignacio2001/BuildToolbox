@@ -13,5 +13,5 @@ setup(name='BuildToolbox',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/BuildToolbox-run'],
+      scripts=['scripts/BuildToolbox-run', 'tests/test_sum'],
       zip_safe=False)
